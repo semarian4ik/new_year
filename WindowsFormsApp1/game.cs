@@ -229,9 +229,7 @@ namespace WindowsFormsApp1
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            var bmp = new Bitmap(Properties.Resources.sinyaya_zvezda_534x346);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.Image = bmp;
+            
         }
 
         private void Button1_Click(object sender, EventArgs e)
